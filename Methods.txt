@@ -36,7 +36,9 @@ void delete_cat ( string cat_name ) ;
 // update category name
 void update_cat ( string old_cat_name , string new_cat_name ) ;
 
-
+// get all categories
+List <string> getAllCategories () ;
+ 
 
 /////////// categories ///////////
 
@@ -110,6 +112,12 @@ void add_to_black_list ( int customer_id , string reason , DateTime block_date) 
 // delete from black_list
 void delete_from_black_list ( int customer_id ) ;
 
+
+// get all customers in black_list 
+List <Customers> GetAllBlocked () ;
+
+// search Customer By ID
+bool search_in_black_list ( int customer_id ) ;
 
 /////////// black list ///////////
 
