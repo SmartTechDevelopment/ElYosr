@@ -167,3 +167,7 @@ Bill getBillByName ( string name , DateTime date) ;
 // return sold products 
 void return_products ( int bill_id , List<int> products_IDs ) ;
 
+
+
+/////////// Sales ///////////
+
