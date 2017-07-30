@@ -1,0 +1,21 @@
+
+// get all sales 
+List <Bill> getAll () ;
+
+// get bill by name and date 
+Bill getBillByName ( string name , DateTime date) ;
+
+// add new product
+void add_new_product ( Product pro ) ;
+
+// get all products ( store )
+List <Product> getAll () ;
+
+// get product by id 
+Product getProductByID ( int product_id ) ;
+
+// add to black list
+void add_to_black_list ( int customer_id , string reason , DateTime block_date) ;
+
+// delete from black_list
+void delete_from_black_list ( int customer_id ) ;
