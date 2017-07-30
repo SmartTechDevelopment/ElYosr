@@ -1,0 +1,20 @@
+// return sold products 
+void return_products ( int bill_id , List<int> products_IDs ) ;
+
+// get all avilable products 
+List <Product> getAllavilable  () ;
+
+// delete product
+void deleteProduct ( int product ) ;
+
+// get all products which is lessthan custom quantity
+List <Product> getLessThan ( int quantity ) ; 
+
+// get all customers 
+List<Customer> getAllCustomers ();
+
+// add new customer
+void add_customer ( Customer c ) 
+
+// update customer info
+void update_customer ( int customer_id , Customer new_customer ) ;

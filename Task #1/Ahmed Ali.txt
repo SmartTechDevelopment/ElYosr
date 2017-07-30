@@ -1,0 +1,17 @@
+// delete delegate 
+void delete_delegate ( int delegate_ID ) ;
+
+// update delegate info 
+void update_cat ( int delegate_ID , Delegate new_del ) ;
+
+// get all delegates
+List<Delegate> getAllDelegates ();
+
+// get customer by id 
+Customer getCustomerByID ( int Customer_ID ) ;
+
+// get customer by name
+Customer getCustomerByID ( string Customer_Name ) ;
+
+// get all customers in black_list 
+List <Customers> GetAllBlocked () ;

@@ -1,0 +1,20 @@
+// check login info 
+bool verify ( string username , string password ) ; 
+
+// add user
+void add_user ( string username , string password ) ; 
+
+// change password 
+void update_password ( string username , string old_password , string new_password ) ;
+
+// change username 
+void update_username ( string old_username , string password , string new_username ) ;
+
+// get all unavilable products 
+List <Product> getAllUnAvailable () ;
+
+// update prodcut
+void update_Product ( int product_id , Product new_product ) ; 
+
+// search Customer By ID
+bool search_in_black_list ( int customer_id ) ;
