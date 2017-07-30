@@ -61,6 +61,17 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="DataLayer\Classes\Bill.cs" />
+    <Compile Include="DataLayer\Classes\Customer.cs" />
+    <Compile Include="DataLayer\Classes\Delegator.cs" />
+    <Compile Include="DataLayer\Classes\Product.cs" />
+    <Compile Include="DataLayer\DB\BlackListData.cs" />
+    <Compile Include="DataLayer\DB\CategoriesData.cs" />
+    <Compile Include="DataLayer\DB\CustomersData.cs" />
+    <Compile Include="DataLayer\DB\DelegatesData.cs" />
+    <Compile Include="DataLayer\DB\ProductsData.cs" />
+    <Compile Include="DataLayer\DB\SalesData.cs" />
+    <Compile Include="DataLayer\DB\UsersData.cs" />
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
